@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { signup } from "../api/auth";
+import { signup } from "../api/route";
 
 export default function Signup() {
   const [formData, setFormData] = useState({ name: "", email: "", password: "" });
